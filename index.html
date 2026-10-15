@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-accent="violet">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aayush Kumar Yadav | Cybersecurity &amp; Data Science Learner, Aspiring SOC Analyst</title>
+<meta name="description" content="Aayush Kumar Yadav: cybersecurity and data science learner, aspiring SOC analyst. B.Tech CS student who builds full-stack apps with Python and MySQL and studies threat hunting, cloud security and machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+<div class="glow-bg"></div>
+<div id="bar"></div>
+
+<header class="fixed top-0 inset-x-0 z-50" style="padding-top:env(safe-area-inset-top,0px)">
+  <div class="glass max-w-6xl mx-auto mt-3 mx-3 px-4 py-3 flex items-center justify-between" style="margin-inline:max(.75rem,calc((100% - 72rem)/2));border-radius:.9rem">
+    <a href="#home" class="brand font-bold text-lg flex items-center gap-2.5">
+      <img src="assets/profile.jpg" alt="Aayush Kumar Yadav" class="profile-avatar">
+      <span>Aayush <span class="grad">Yadav</span></span>
+    </a>
+    <nav class="nav hidden md:flex gap-6 text-sm mu">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <button id="accent" class="btn !p-2 !px-3" aria-label="Change accent colour" title="Change accent">&#9679;</button>
+      <button id="theme" class="btn !p-2 !px-3" aria-label="Toggle light or dark mode" title="Toggle theme">&#9788;</button>
+      <button id="burger" class="btn !p-2 !px-3 md:hidden" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+  <div id="menu" class="glass hidden md:!hidden mx-3 mt-2 p-4 flex-col gap-3 text-sm" style="border-radius:.9rem">
+    <div class="flex items-center gap-2 pb-2 border-b border-[var(--bd)]">
+      <img src="assets/profile.jpg" alt="Aayush" class="w-6 h-6 rounded-full object-cover border border-[var(--bd)]">
+      <span class="font-semibold text-xs">Aayush Yadav</span>
+    </div>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-5">
+
+<section id="home" class="min-h-screen flex flex-col justify-center pt-28 pb-16">
+  <div class="hero-in grid lg:grid-cols-12 gap-10 items-center">
+    <div class="lg:col-span-7">
+      <span class="pill inline-flex items-center gap-2"><span class="pulse w-2 h-2 rounded-full" style="background:var(--a2)"></span>Open to SOC, cybersecurity &amp; data internships</span>
+      <h1 class="mt-6 text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight leading-[1.15] max-w-4xl">Learning to protect systems<br><span class="grad">and make sense of data.</span></h1>
+      <p class="mt-6 text-xl sm:text-2xl font-semibold">Security-minded data explorer <span class="mu font-normal">and</span> <span id="typed" class="grad"></span><span class="caret">|</span></p>
+      <p class="mu mt-4 max-w-2xl text-base sm:text-lg">Hi, I'm Aayush Kumar Yadav, a 3rd-year B.Tech Computer Science student at Chhatrapati Shivaji Institute of Technology, Durg. I'm learning cybersecurity and data science side by side: threat hunting, cloud security and networking on one side, Python, data handling and machine learning on the other. I build full-stack apps with Python and MySQL, so I understand the systems I want to defend and the data they produce.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="#projects" class="btn btn-p">View work</a>
+        <a href="#contact" class="btn glass">Contact me</a>
+        <a href="Resume-Aayush.pdf" download class="btn glass">Download resume</a>
+      </div>
+      <div class="glass mt-8 p-4 max-w-md"><div class="flex justify-between gap-3 text-sm flex-wrap"><span class="font-semibold">B.Tech Computer Science</span><span class="mu">3rd year, semester 5 of 8</span></div><div class="mt-3 grid grid-cols-8 gap-1" role="img" aria-label="Semester 5 of 8 completed or in progress"><span style="height:.35rem;border-radius:99px;background:var(--a)"></span><span style="height:.35rem;border-radius:99px;background:var(--a)"></span><span style="height:.35rem;border-radius:99px;background:var(--a)"></span><span style="height:.35rem;border-radius:99px;background:var(--a)"></span><span style="height:.35rem;border-radius:99px;background:var(--a)"></span><span style="height:.35rem;border-radius:99px;background:var(--bd)"></span><span style="height:.35rem;border-radius:99px;background:var(--bd)"></span><span style="height:.35rem;border-radius:99px;background:var(--bd)"></span></div><div class="text-xs mu mt-2">Chhatrapati Shivaji Institute of Technology, Durg</div></div>
+      <div class="mt-8 flex gap-5 text-sm mu">
+        <a class="hover:text-[var(--a)]" href="https://github.com/Aayushyadav45" target="_blank" rel="noopener">GitHub</a>
+        <a class="hover:text-[var(--a)]" href="https://linkedin.com/in/aayush-yadav-052098366" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="hover:text-[var(--a)]" href="mailto:aayushyadav2051@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="lg:col-span-5 flex justify-center lg:justify-end">
+      <div class="profile-card">
+        <div class="profile-glow"></div>
+        <div class="glass relative p-3 sm:p-4 rounded-3xl overflow-hidden border border-[var(--bd)] max-w-xs sm:max-w-sm">
+          <img src="assets/profile.jpg" alt="Aayush Kumar Yadav" class="w-64 sm:w-72 md:w-80 aspect-square object-cover rounded-2xl shadow-xl transition duration-500 hover:scale-[1.02]">
+          <div class="mt-3 p-2.5 px-3.5 flex items-center justify-between text-xs rounded-xl bg-[var(--card)] border border-[var(--bd)]">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full" style="background:var(--a2)"></span>
+              <span class="font-medium">Aayush Kumar Yadav</span>
+            </div>
+            <span class="mu font-mono text-[11px]">SOC &bull; Data</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="py-20">
+  <h2 class="text-3xl sm:text-4xl font-bold mb-2">About</h2>
+  <p class="mu mb-8 max-w-2xl">The intersection: using machine learning to predict, detect, and neutralize system anomalies.</p>
+  <div class="grid md:grid-cols-3 gap-5">
+    <div class="glass p-6 md:col-span-2">
+      <p class="font-semibold text-lg leading-snug border-l-2 pl-4 mb-5" style="border-color:var(--a)">Obsessed with uncovering the story data tells and locking down the doors it exposes.</p>
+      <p class="mu leading-relaxed">I'm a cybersecurity and data science learner working towards a career as a SOC analyst, and I enjoy building complete products. My foundation is full-stack web development and database engineering with Python and MySQL, and I like turning that into tools people can use: a library system, an image search app, a privacy-first file converter and an AI complaint management system.</p>
+      <p class="mu leading-relaxed mt-4">Right now I'm building towards the SOC analyst role by studying threat hunting, cloud security and defensive system architecture, so the software I write is secure and resilient by design, not as an afterthought. Alongside that, I'm learning data science, from Python data handling to machine learning, because modern security work runs on data.</p>
+    </div>
+    <div class="glass p-6 space-y-4 text-sm">
+      <div><div class="mu">Focus</div><div class="font-semibold">Cybersecurity &amp; data science learner</div></div>
+      <div><div class="mu">Strengths</div><div class="font-semibold">Database design, problem solving, modular code</div></div>
+      <div><div class="mu">Learning now</div><div class="font-semibold">Threat hunting, cloud security, data science</div></div>
+      <div><div class="mu">Currently</div><div class="font-semibold">3rd year B.Tech student (semester 5)</div></div>
+      <div><div class="mu">Based in</div><div class="font-semibold">Durg, Chhattisgarh, India</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="py-20">
+  <h2 class="text-3xl sm:text-4xl font-bold mb-8">Skills</h2>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div class="glass p-6"><h3 class="font-semibold mb-3">Languages</h3><div class="flex flex-wrap gap-2"><span class="pill">Python</span><span class="pill">Java</span><span class="pill">PHP</span><span class="pill">Dart</span></div></div>
+    <div class="glass p-6"><h3 class="font-semibold mb-3">Web &amp; app development</h3><div class="flex flex-wrap gap-2"><span class="pill">Web development</span><span class="pill">Flutter</span><span class="pill">React &amp; Next.js (workshop)</span></div></div>
+    <div class="glass p-6"><h3 class="font-semibold mb-3">Databases</h3><div class="flex flex-wrap gap-2"><span class="pill">MySQL</span><span class="pill">Schema design</span><span class="pill">Queries</span><span class="pill">Data management</span></div></div>
+    <div class="glass p-6"><h3 class="font-semibold mb-3">Libraries</h3><div class="flex flex-wrap gap-2"><span class="pill">Python libraries</span><span class="pill">Data handling</span><span class="pill">Data science (learning)</span><span class="pill">Machine learning</span><span class="pill">Application development</span></div></div>
+    <div class="glass p-6"><h3 class="font-semibold mb-3">Security focus</h3><div class="flex flex-wrap gap-2"><span class="pill">SOC analysis (learning)</span><span class="pill">Threat hunting</span><span class="pill">Cloud security</span><span class="pill">Defensive system architecture</span><span class="pill">Networking (Packet Tracer)</span></div></div>
+    <div class="glass p-6"><h3 class="font-semibold mb-3">Core competencies</h3><div class="flex flex-wrap gap-2"><span class="pill">Full-stack development</span><span class="pill">Database engineering</span><span class="pill">Problem solving</span><span class="pill">AI &amp; machine learning</span></div></div>
+  </div>
+</section>
+
+<section id="projects" class="py-20">
+  <h2 class="text-3xl sm:text-4xl font-bold mb-6">Projects</h2>
+  <div class="flex flex-wrap gap-2 mb-8" id="filters">
+    <button class="btn filter on !py-2" data-f="all">All</button>
+    <button class="btn filter !py-2" data-f="fullstack">Full-stack</button>
+    <button class="btn filter !py-2" data-f="ai">AI</button>
+    <button class="btn filter !py-2" data-f="web">Web</button>
+    <button class="btn filter !py-2" data-f="tools">Tools</button>
+  </div>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <article class="glass proj p-6 flex flex-col" data-c="fullstack">
+      <h3 class="text-xl font-bold">ShelfWise</h3>
+      <p class="mu text-sm">Intelligent library management system</p>
+      <p class="mt-3 text-sm mu"><b class="text-[var(--tx)]">Problem:</b> Books, members and lending records were scattered. <b class="text-[var(--tx)]">Solution:</b> one system that manages all three.</p>
+      <ul class="mt-3 text-sm mu list-disc pl-5 space-y-1 flex-1"><li>MySQL schema and queries for search, issue, return and availability tracking</li><li>Reusable modules that keep the app easy to extend</li></ul>
+      <div class="flex flex-wrap gap-2 mt-4"><span class="pill">Python</span><span class="pill">MySQL</span></div>
+      <div class="flex gap-4 mt-4 text-sm"><a class="hover:text-[var(--a)]" href="https://github.com/Aayushyadav45" target="_blank" rel="noopener">GitHub</a><a class="mu" href="#contact">Demo: on request</a></div>
+    </article>
+    <article class="glass proj p-6 flex flex-col" data-c="web">
+      <h3 class="text-xl font-bold">insight-lens-28</h3>
+      <p class="mu text-sm">Google Lens-style web app</p>
+      <p class="mt-3 text-sm mu"><b class="text-[var(--tx)]">Problem:</b> Identifying an unknown item takes several manual searches. <b class="text-[var(--tx)]">Solution:</b> upload a photo and get answers in one place.</p>
+      <ul class="mt-3 text-sm mu list-disc pl-5 space-y-1 flex-1"><li>Identifies items from an uploaded photo</li><li>Shows detailed info in the web interface</li><li>Pulls extra data from the internet for fuller context</li></ul>
+      <div class="flex flex-wrap gap-2 mt-4"><span class="pill">Web application</span><span class="pill">Image search</span></div>
+      <div class="flex gap-4 mt-4 text-sm"><a class="hover:text-[var(--a)]" href="https://github.com/Aayushyadav45" target="_blank" rel="noopener">GitHub</a><a class="mu" href="#contact">Demo: on request</a></div>
+    </article>
+    <article class="glass proj p-6 flex flex-col" data-c="tools web">
+      <h3 class="text-xl font-bold">convertIQ</h3>
+      <p class="mu text-sm">File conversion app</p>
+      <p class="mt-3 text-sm mu"><b class="text-[var(--tx)]">Problem:</b> Different formats need different converter tools. <b class="text-[var(--tx)]">Solution:</b> one app for documents and images.</p>
+      <ul class="mt-3 text-sm mu list-disc pl-5 space-y-1 flex-1"><li>Converts PDF to PNG, PNG to PDF and images across JPEG, PNG, WEBP, AVIF, BMP and SVG</li><li>Quality and dimension controls; conversion runs in the browser, so files stay private</li><li>Deployed and live on Vercel</li></ul>
+      <div class="flex flex-wrap gap-2 mt-4"><span class="pill">File conversion</span><span class="pill">PDF</span><span class="pill">PNG</span><span class="pill">WEBP</span><span class="pill">AVIF</span><span class="pill">Vercel</span></div>
+      <div class="flex gap-4 mt-4 text-sm"><a class="font-semibold text-[var(--a)]" href="https://convert-iq-beta.vercel.app/" target="_blank" rel="noopener">Live demo</a><a class="hover:text-[var(--a)]" href="https://github.com/Aayushyadav45" target="_blank" rel="noopener">GitHub</a></div>
+    </article>
+    <article class="glass proj p-6 flex flex-col" data-c="ai fullstack">
+      <h3 class="text-xl font-bold">AI Complaint Management System</h3>
+      <p class="mu text-sm">AI-assisted complaint handling</p>
+      <p class="mt-3 text-sm mu"><b class="text-[var(--tx)]">Problem:</b> Complaints are hard to log, track and prioritise. <b class="text-[var(--tx)]">Solution:</b> one system that manages complaints with AI support.</p>
+      <ul class="mt-3 text-sm mu list-disc pl-5 space-y-1 flex-1"><li>Submit and track complaints in one place</li><li>Uses AI to help handle and organise complaints</li></ul>
+      <div class="flex flex-wrap gap-2 mt-4"><span class="pill">AI</span><span class="pill">Complaint management</span></div>
+      <div class="flex gap-4 mt-4 text-sm"><a class="hover:text-[var(--a)]" href="https://github.com/Aayushyadav45" target="_blank" rel="noopener">GitHub</a><a class="mu" href="#contact">Demo: on request</a></div>
+    </article>
+  </div>
+</section>
+
+<section id="journey" class="py-20">
+  <h2 class="text-3xl sm:text-4xl font-bold mb-2">Journey</h2>
+  <p class="mu mb-8">My education so far.</p>
+  <div class="tl ml-2 space-y-6">
+    <div class="relative pl-7"><span class="dot absolute -left-[6px] top-6"></span><div class="glass p-5"><div class="text-xs mu">2024 to present</div><h3 class="font-semibold">B.Tech in Computer Science, 3rd year (5th semester)</h3><p class="text-sm mu">Chhatrapati Shivaji Institute of Technology, Durg, CG</p></div></div>
+    
+    
+    
+    <div class="relative pl-7"><span class="dot absolute -left-[6px] top-6"></span><div class="glass p-5"><div class="text-xs mu">Completed 2024</div><h3 class="font-semibold">Class 12 (Senior Secondary)</h3><p class="text-sm mu">Nirmala English Medium Sr. Sec. School, Dalli Rajhara</p></div></div>
+    <div class="relative pl-7"><span class="dot absolute -left-[6px] top-6"></span><div class="glass p-5"><div class="text-xs mu">Completed 2022</div><h3 class="font-semibold">Class 10 (Secondary)</h3><p class="text-sm mu">Nirmala English Medium Sr. Sec. School, Dalli Rajhara</p></div></div>
+  </div>
+</section>
+
+<section id="achievements" class="py-20">
+  <h2 class="text-3xl sm:text-4xl font-bold mb-2">Achievements</h2>
+  <p class="mu mb-8">Workshops and programs I've completed. Select a certificate to open it.</p>
+  <div id="certs" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+</section>
+<div id="lb" class="hidden fixed inset-0 z-[80] items-center justify-center p-4" style="background:rgba(0,0,0,.85)" role="dialog" aria-label="Certificate preview"><img id="lbimg" alt="" class="max-h-full max-w-full rounded-xl"></div>
+
+<section id="contact" class="py-20">
+  <h2 class="text-3xl sm:text-4xl font-bold mb-8">Contact</h2>
+  <div class="grid md:grid-cols-2 gap-5">
+    <div class="glass p-6 space-y-4">
+      <p class="mu">Looking for an intern or a collaborator on a security, data or full-stack project? Send me a message.</p>
+      <div class="flex items-center gap-3 flex-wrap"><a class="font-semibold hover:text-[var(--a)]" href="mailto:aayushyadav2051@gmail.com">aayushyadav2051@gmail.com</a><button id="copy" class="pill copy">Copy email</button></div>
+      <a class="block mu hover:text-[var(--a)]" href="tel:+916266007289">+91 6266007289</a>
+      <div class="flex gap-3 pt-2"><a class="pill" href="https://github.com/Aayushyadav45" target="_blank" rel="noopener">GitHub</a><a class="pill" href="https://linkedin.com/in/aayush-yadav-052098366" target="_blank" rel="noopener">LinkedIn</a></div>
+    </div>
+    <div class="glass p-6">
+      <div id="cf" class="space-y-3">
+        <input id="n" placeholder="Your name" aria-label="Your name" autocomplete="name">
+        <input id="e" type="email" placeholder="Your email" aria-label="Your email" autocomplete="email">
+        <textarea id="m" rows="4" placeholder="How can I help?" aria-label="Message"></textarea>
+        <button id="send" class="btn btn-p w-full justify-center">Send message</button>
+        <div id="sendopts" class="hidden flex flex-wrap gap-2 pt-1 text-sm"><a id="mailto" class="pill" href="#">Open email app</a><a id="gmail" class="pill" href="#" target="_blank" rel="noopener">Open Gmail</a><button id="copymsg" class="pill" type="button">Copy message</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="text-center text-sm mu py-10">&copy; <span id="yr"></span> Aayush Kumar Yadav</footer>
+<div id="toast" class="glass px-5 py-3 text-sm" role="status" aria-live="polite"></div>
+
+<script src='js/script.js' defer></script>
+</body>
+</html>
